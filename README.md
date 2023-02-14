@@ -1,4 +1,8 @@
 ## EfficientNet_b0
 
 
-모델 명칭/모델 버전/모델 task 등 모델 관련 정보 기재(모델 산출물 포맷 표준화 계획(안) 참고
+# Data Preprocessing
+
+# Model Training
+
+# Model Testing
