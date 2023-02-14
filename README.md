@@ -36,7 +36,7 @@ EfficientNet_b0 모델을 학습 (Epoch=10, Batch size=128, CrossEntropyLoss, Ad
 
 학습한 Best model weight를 불러와서 평가수행
 
-log 함수를 통해 testing 결과가 txt파일로 찍히도록 구현 (AUROC = 94.2)
+log 함수를 통해 testing 결과가 txt파일로 찍히도록 구현 (AUROC=94.2)
 
 이미지별 실제값, 모델예측값을 담은 csv파일 도출
 
