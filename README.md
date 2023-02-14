@@ -28,7 +28,9 @@ Json의 Source_data_image_code, Print error code 데이터 추출
 
 전처리한 csv파일과 이미지들을 넣어서 dataset 구축
 
-EfficientNet_b0 모델을 학습 (Epoch=10, CrossEntropyLoss, Adam, StepLR)
+8개 class들을 label로 가진 이미지들을 학습하여 test단계에서 class를 분류하는 모델 학습
+
+EfficientNet_b0 모델을 학습 (Epoch=10, Batch size=128, CrossEntropyLoss, Adam, StepLR)
 
 ## Model Testing
 
