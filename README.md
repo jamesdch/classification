@@ -1,5 +1,5 @@
 # EfficientNet_b0
----
+
 ![image](https://user-images.githubusercontent.com/125367053/218742249-5acfc69a-0f6a-4f60-96f9-206dd2066cb9.png)
 
 한정된 Resource 내에서 최대 효율을 내기 위해 model scaling(depth, width, resolution)을 시스템적으로 분석하여 도출한 분류모델 
@@ -14,12 +14,12 @@ Depth, width, resolution이 서로 긴밀히 연결되어 있어 어떻게 적�
 분류모델 EfficientNet-B0를 사용하여 8개의 class 분류
 
 8개 Class : No Error, Gaps, Warping, Lines of Print, Separation, Stringing, Blow out, Etc Print Error
-
+---
 
 ## Data Preprocessing
----
+
 
 ## Model Training
----
+
 ## Model Testing
----
+
