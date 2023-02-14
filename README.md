@@ -11,9 +11,9 @@
 * 모델 크기는 RestNet-50보다 약 1/5 수준이지만 정확도는 1.1% 우수한 모델(EfficientNet-B0 기준)  
 
 
-*분류모델 EfficientNet-B0를 사용하여 8개의 class 분류
+* 분류모델 EfficientNet-B0를 사용하여 8개의 class 분류
 
-  * 8개 Class : No Error, Gaps, Warping, Lines of Print, Separation, Stringing, Blow out, Etc Print Error
+- 8개 Class : No Error, Gaps, Warping, Lines of Print, Separation, Stringing, Blow out, Etc Print Error
 
 
 ## Data Preprocessing
