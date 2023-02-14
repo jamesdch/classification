@@ -13,30 +13,30 @@
 
 * 분류모델 EfficientNet-B0를 사용하여 8개의 class 분류
 
-- 8개 Class : No Error, Gaps, Warping, Lines of Print, Separation, Stringing, Blow out, Etc Print Error
+ * 8개 Class : No Error, Gaps, Warping, Lines of Print, Separation, Stringing, Blow out, Etc Print Error
 
 
 ## Data Preprocessing
 
-분류모델 학습 시 필요한 데이터(이미지명, 이미지 클래스)를 json파일에서 추출
+* 분류모델 학습 시 필요한 데이터(이미지명, 이미지 클래스)를 json파일에서 추출
 
-Json의 Source_data_image_code, Print error code 데이터 추출 
+* Json의 Source_data_image_code, Print error code 데이터 추출 
 
-추출한 데이터를 Train : Valid : Test = 8 : 1 : 1로 split하고 csv파일로 저장
+* 추출한 데이터를 Train : Valid : Test = 8 : 1 : 1로 split하고 csv파일로 저장
 
 ## Model Training
 
-전처리한 csv파일과 이미지들을 넣어서 dataset 구축
+* 전처리한 csv파일과 이미지들을 넣어서 dataset 구축
 
-8개 class들을 label로 가진 이미지들을 학습하여 test단계에서 class를 분류하는 모델 학습
+* 8개 class들을 label로 가진 이미지들을 학습하여 test단계에서 class를 분류하는 모델 학습
 
-EfficientNet_b0 모델을 학습 (Epoch=10, Batch size=128, CrossEntropyLoss, Adam, StepLR)
+* EfficientNet_b0 모델을 학습 (Epoch=10, Batch size=128, CrossEntropyLoss, Adam, StepLR)
 
 ## Model Testing
 
-학습한 Best model weight를 불러와서 평가수행
+* 학습한 Best model weight를 불러와서 평가수행
 
-log 함수를 통해 testing 결과가 txt파일로 찍히도록 구현 (AUROC=94.2)
+* log 함수를 통해 testing 결과가 txt파일로 찍히도록 구현 (AUROC=94.2)
 
-이미지별 실제값, 모델예측값을 담은 csv파일 도출
+* 이미지별 실제값, 모델예측값을 담은 csv파일 도출
 
